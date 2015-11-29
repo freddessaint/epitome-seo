@@ -1,0 +1,929 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO Core Options\n"
+"POT-Creation-Date: 2013-02-28 00:54+0100\n"
+"PO-Revision-Date: 2013-02-28 00:54+0100\n"
+"Last-Translator: Frédéric Dessaint <frederic.dessaint@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_x:2c,1;_ex:2c,1;_n:1,2;_nx:1,2,4c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../options-page.php:10
+msgid "SEO settings"
+msgstr "Paramètres SEO"
+
+#: ../SEOCoreOptions.php:82
+msgid "Optimized name"
+msgstr "Nom optimisé"
+
+#: ../SEOCoreOptions.php:85
+msgid ""
+"Use the optimized name if you want to improve taxonomies titles in your "
+"theme. The default name is used then for small areas of your layout."
+msgstr ""
+"Utilisez le nom optimisé si vous désirez améliorer les titres de taxinomies "
+"dans votre thème. Le nom pas défaut est alors utilisé pour les petits "
+"emplacements dans votre mise en page."
+
+#: ../SEOCoreOptions.php:90 ../SEOCoreOptions.php:232
+#: ../SEOCoreOptions.php:473
+msgid "Title for search engine"
+msgstr "Titre pour les moteurs de recherche"
+
+#: ../SEOCoreOptions.php:93 ../SEOCoreOptions.php:238
+#: ../SEOCoreOptions.php:474
+msgid "Most search engines use a maximum of 60 chars for the title."
+msgstr ""
+"La plupart des moteurs de recherche utilisent un maximum de 60 charactères "
+"pour le titre."
+
+#: ../SEOCoreOptions.php:97 ../SEOCoreOptions.php:250
+#: ../SEOCoreOptions.php:482
+msgid "Meta description"
+msgstr "Meta description"
+
+#: ../SEOCoreOptions.php:100 ../SEOCoreOptions.php:256
+#: ../SEOCoreOptions.php:483
+msgid "Most search engines use a maximum of 160 chars for the description."
+msgstr ""
+"La plupart des moteurs de recherche utilisent 160 charactères pour la "
+"description."
+
+#: ../SEOCoreOptions.php:104 ../SEOCoreOptions.php:491
+msgid "Canonical"
+msgstr "Adresse canonique"
+
+#: ../SEOCoreOptions.php:107
+msgid "The canonical link is shown on this term's archive page."
+msgstr "L'adresse canonique est montré dans la page d'archive de ce terme."
+
+#: ../SEOCoreOptions.php:111
+msgid "Long description"
+msgstr "Description longue"
+
+#: ../SEOCoreOptions.php:123
+msgid ""
+"The long description is used in the context of search engine optimization, "
+"while the built-in short description of WordPress can be used as an "
+"introduction in your theme."
+msgstr ""
+"La description longue est utilisée dans le cadre de l'optimisation des "
+"moteurs de recherche, tandis que la courte description intégrée à WordPress "
+"peut être utilisé comme une introduction dans votre thème."
+
+#: ../SEOCoreOptions.php:171
+msgid "Frontpage model"
+msgstr "Modèle page couverture"
+
+#: ../SEOCoreOptions.php:177
+msgid "Singular model"
+msgstr "Modèle page singulière"
+
+#: ../SEOCoreOptions.php:183
+msgid "Category model"
+msgstr "Modèle page de catégorie"
+
+#: ../SEOCoreOptions.php:189
+msgid "Tag model"
+msgstr "Modèle page d'étiquette"
+
+#: ../SEOCoreOptions.php:195
+msgid "Taxonomy model"
+msgstr "Modèle page de taxinomie"
+
+#: ../SEOCoreOptions.php:201
+msgid "Author model"
+msgstr "Modèle page d'auteur"
+
+#: ../SEOCoreOptions.php:207
+msgid "Date model"
+msgstr "Modèle d'archive datée"
+
+#: ../SEOCoreOptions.php:213
+msgid "Search model"
+msgstr "Modèle page de recherche"
+
+#: ../SEOCoreOptions.php:219
+msgid "404 model"
+msgstr "Modèle page 404"
+
+#: ../SEOCoreOptions.php:268 ../SEOCoreOptions.php:332
+#: ../SEOCoreOptions.php:500
+msgid "Meta Robots Index"
+msgstr "Meta Robots Index"
+
+#: ../SEOCoreOptions.php:277 ../SEOCoreOptions.php:295
+#: ../SEOCoreOptions.php:341 ../SEOCoreOptions.php:358
+#: ../SEOCoreOptions.php:503 ../SEOCoreOptions.php:514
+msgid "Yes"
+msgstr "Oui"
+
+#: ../SEOCoreOptions.php:278 ../SEOCoreOptions.php:296
+#: ../SEOCoreOptions.php:342 ../SEOCoreOptions.php:359
+#: ../SEOCoreOptions.php:504 ../SEOCoreOptions.php:515
+msgid "No"
+msgstr "Non"
+
+#: ../SEOCoreOptions.php:286 ../SEOCoreOptions.php:349
+#: ../SEOCoreOptions.php:511
+msgid "Meta Robots Follow"
+msgstr "Meta Robots Follow"
+
+#: ../SEOCoreOptions.php:313
+msgid "Paged model"
+msgstr "Modèle pour la pagination"
+
+#: ../SEOCoreOptions.php:318
+msgid "Title suffix for paged display"
+msgstr "Suffixe de titre pour la pagination"
+
+#: ../SEOCoreOptions.php:324
+msgid ""
+"Text added at the end of the main title for paged display. For instance: "
+"Page %pagenum% of %pagetotal%"
+msgstr ""
+"Text ajouté à la fin du titre principal d'un affichage paginé. Par exemple : "
+"Page %pagenum% sur %pagetotal%"
+
+#: ../SEOCoreOptions.php:354
+msgid "Override previous Meta Robots settings whether paged pages."
+msgstr ""
+"Les précédents paramètres Meta Robots seront remplacés en cas de pagination."
+
+#: ../SEOCoreOptions.php:465 ../SEOCoreOptions.php:585
+#: ../SEOCoreOptions.php:586
+msgid "SEO"
+msgstr "SEO"
+
+#: ../SEOCoreOptions.php:492
+msgid ""
+"The canonical URL that this page should point to. Leave empty to default to "
+"permalink."
+msgstr ""
+"L'adresse canonique où cette page devrait aller. Laisser vide si vous "
+"préférez utiliser le permalink par défaut."
+
+#: ../SEOCoreOptions.php:598
+msgid "Global options."
+msgstr "Options générales."
+
+#: ../SEOCoreOptions.php:1036
+msgid "Page %pagenum% of %pagetotal%"
+msgstr "Page %pagenum% sur %pagetotal%"
+
+#~ msgid "Misc model"
+#~ msgstr "Modèle pages diverses"
+
+#~ msgid "Y/m/d g:i:s A"
+#~ msgstr "Y/m/d g:i:s A"
+
+#~ msgid "Google Maps Theme Tools"
+#~ msgstr "Google Maps Outils du thème"
+
+#~ msgid "Get the shortcode"
+#~ msgstr "Générer le shortcode"
+
+#~ msgctxt "theme options"
+#~ msgid "The company, organization, brand, or author that owns the site."
+#~ msgstr ""
+#~ "La société, l'institution, la marque, ou l'auteur propriétaire du site."
+
+#~ msgctxt "theme options"
+#~ msgid "Current year (such as 2012) or a range of years (such as 2010-2012)."
+#~ msgstr ""
+#~ "Année courante (telle que 2012) ou un interval d'années (telle que "
+#~ "2010-2012)."
+
+#~ msgctxt "theme options"
+#~ msgid "The band signature located at the top every page."
+#~ msgstr "La signature de la marque apposée sur le haut de chaque page."
+
+#~ msgid "%s Theme Options"
+#~ msgstr "Options du Thème %s"
+
+#~ msgid "Journal Categories"
+#~ msgstr "Catégories du Journal"
+
+#~ msgid "Archives: %s"
+#~ msgstr "Archives: %s"
+
+#~ msgid "Previous page"
+#~ msgstr "Page précédente"
+
+#~ msgid "Next page"
+#~ msgstr "Page suivante"
+
+#~ msgctxt "crm"
+#~ msgid "Information"
+#~ msgstr "Renseignement"
+
+#~ msgctxt "crm"
+#~ msgid "Brochure"
+#~ msgstr "Brochure"
+
+#~ msgctxt "crm"
+#~ msgid "Newsletter"
+#~ msgstr "Newsletter"
+
+#~ msgctxt "crm"
+#~ msgid "Registration"
+#~ msgstr "Inscription"
+
+#~ msgctxt "crm"
+#~ msgid "Received"
+#~ msgstr "Reçu"
+
+#~ msgctxt "crm"
+#~ msgid "Processed"
+#~ msgstr "Traité"
+
+#~ msgctxt "crm"
+#~ msgid "Call again"
+#~ msgstr "Relancer"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Personal data"
+#~ msgstr "Informations personnelles"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Firstname"
+#~ msgstr "Prénom"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Lastname"
+#~ msgstr "Nom"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Add. address"
+#~ msgstr "Adr. (suite)"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Postal code"
+#~ msgstr "Code postal"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Locality"
+#~ msgstr "Localité"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Country"
+#~ msgstr "Pays"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Home phone"
+#~ msgstr "Tél. domicile"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Mobile phone"
+#~ msgstr "Tél. mobile"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Comment"
+#~ msgstr "Observations"
+
+#~ msgctxt "crm"
+#~ msgid "Timeline"
+#~ msgstr "Historique"
+
+#~ msgctxt "crm"
+#~ msgid "Details of the requests"
+#~ msgstr "Détails des demandes"
+
+#~ msgctxt "crm"
+#~ msgid "Management"
+#~ msgstr "Suivi"
+
+#~ msgctxt "crm"
+#~ msgid "Comment"
+#~ msgstr "Observations"
+
+#~ msgctxt "crm"
+#~ msgid "Status"
+#~ msgstr "Statut"
+
+#~ msgid "%s ago"
+#~ msgstr "Il y a %s"
+
+#~ msgid "Y/m/d"
+#~ msgstr "d/m/Y"
+
+#~ msgctxt "crm"
+#~ msgid "See details"
+#~ msgstr "Afficher le détail"
+
+#~ msgid "Print"
+#~ msgstr "Imprimer"
+
+#~ msgctxt "crm"
+#~ msgid "Hide details"
+#~ msgstr "Masquer le détail"
+
+#~ msgctxt "crm menu"
+#~ msgid "Customer Relationship Management"
+#~ msgstr "Customer Relationship Information"
+
+#~ msgctxt "crm menu"
+#~ msgid "Management"
+#~ msgstr "Gestion"
+
+#~ msgctxt "crm menu"
+#~ msgid "All requests"
+#~ msgstr "Toutes les demandes"
+
+#~ msgctxt "crm"
+#~ msgid "Requests management"
+#~ msgstr "Gestion des demandes"
+
+#~ msgctxt "crm"
+#~ msgid "Search results for &#8220;%s&#8221;"
+#~ msgstr "Résultats de recherche pour &#8220;%s&#8221;"
+
+#~ msgctxt "crm"
+#~ msgid "All requests"
+#~ msgstr "Toutes les demandes"
+
+#~ msgctxt "crm"
+#~ msgid "Enter here the name of the requester"
+#~ msgstr "Entrez ici le nom du demandeur"
+
+#~ msgctxt "crm"
+#~ msgid "Requester updated."
+#~ msgstr "Les informations du demandeur sont mis à jour."
+
+#~ msgid "Add New"
+#~ msgstr "Ajouter"
+
+#~ msgid "Add New %s"
+#~ msgstr "Ajouter %s"
+
+#~ msgid "Edit %s"
+#~ msgstr "Éditer %s"
+
+#~ msgid "New %s"
+#~ msgstr "Nouveau %s"
+
+#~ msgid "View %s"
+#~ msgstr "Voir %s"
+
+#~ msgid "No %s found"
+#~ msgstr "Aucun %s trouvé"
+
+#~ msgid "No %s found in Trash"
+#~ msgstr "Aucun %s trouvé dans la Corbeille"
+
+#~ msgid "All %s"
+#~ msgstr "Les %s"
+
+#~ msgid "Edit this item"
+#~ msgstr "Modifier cet élément"
+
+#~ msgid "Edit"
+#~ msgstr "Éditer"
+
+#~ msgid "Move this item to the Trash"
+#~ msgstr "Déplacer cet élément dans la corbeille"
+
+#~ msgid "Trash"
+#~ msgstr "Corbeille"
+
+#~ msgid "Unpublished"
+#~ msgstr "Non publié"
+
+#~ msgctxt "rewrite rules"
+#~ msgid "language-tours"
+#~ msgstr "sejours-linguistiques"
+
+#~ msgid "Parent %s"
+#~ msgstr "%s parent"
+
+#~ msgid "Parent %s:"
+#~ msgstr "%s parent :"
+
+#~ msgid "Update %s"
+#~ msgstr "Mettre à jour %s"
+
+#~ msgid "New %s Name"
+#~ msgstr "Nouveau nom de %s"
+
+#~ msgid "Popular %s"
+#~ msgstr "%s populaire"
+
+#~ msgid "Separate %s with commas"
+#~ msgstr "Séparer %s avec des virgules"
+
+#~ msgid "Add or remove %s"
+#~ msgstr "Ajouter ou enlever %s"
+
+#~ msgid "Choose from the most used %s"
+#~ msgstr "Choisir parmi le %s le plus utilisé"
+
+#~ msgctxt "custom post name"
+#~ msgid "Tour"
+#~ msgid_plural "Tours"
+#~ msgstr[0] "Séjour"
+#~ msgstr[1] "Séjours"
+
+#~ msgctxt "custom taxonomy name"
+#~ msgid "Destination"
+#~ msgid_plural "Destinations"
+#~ msgstr[0] "Destination"
+#~ msgstr[1] "Destinations"
+
+#~ msgctxt "custom taxonomy name"
+#~ msgid "Program"
+#~ msgid_plural "Program"
+#~ msgstr[0] "Programme"
+#~ msgstr[1] "Programmes"
+
+#~ msgctxt "custom taxonomy name"
+#~ msgid "Accommodation"
+#~ msgid_plural "Accommodations"
+#~ msgstr[0] "Hébergement"
+#~ msgstr[1] "Hébergements"
+
+#~ msgctxt "custom taxonomy name"
+#~ msgid "Participant"
+#~ msgid_plural "Participants"
+#~ msgstr[0] "Participant"
+#~ msgstr[1] "Participants"
+
+#~ msgctxt "custom taxonomy name"
+#~ msgid "Activity"
+#~ msgid_plural "Activities"
+#~ msgstr[0] "Activité"
+#~ msgstr[1] "Activités"
+
+#~ msgctxt "custom taxonomy name"
+#~ msgid "Offer"
+#~ msgid_plural "Offers"
+#~ msgstr[0] "Offre"
+#~ msgstr[1] "Offres"
+
+#~ msgctxt "custom post name"
+#~ msgid "Requester"
+#~ msgid_plural "Requesters"
+#~ msgstr[0] "Demandeur"
+#~ msgstr[1] "Demandeurs"
+
+#~ msgctxt "rewrite rules"
+#~ msgid "destinations/%destination%"
+#~ msgstr "destinations/%destination%"
+
+#~ msgctxt "rewrite rules"
+#~ msgid "tour-programs/%program%"
+#~ msgstr "programmes-sejours/%program%"
+
+#~ msgctxt "rewrite rules"
+#~ msgid "accommodations/%accommodation%"
+#~ msgstr "hebergements/%accommodation%"
+
+#~ msgctxt "rewrite rules"
+#~ msgid "participants/%participant%"
+#~ msgstr "participants/%participant%"
+
+#~ msgctxt "rewrite rules"
+#~ msgid "activities/%activity%"
+#~ msgstr "activites/%activity%"
+
+#~ msgctxt "rewrite rules"
+#~ msgid "season-offers/%offer%"
+#~ msgstr "offres-saisonnieres/%offer%"
+
+#~ msgctxt "rewrite rules"
+#~ msgid "language-tours/%destination%/%tour%"
+#~ msgstr "sejours-linguistiques/%destination%/%tour%"
+
+#~ msgctxt "rewrite rules"
+#~ msgid "authors"
+#~ msgstr "auteurs"
+
+#~ msgctxt "tour detail"
+#~ msgid "Tour available all year round."
+#~ msgstr "Séjour réalisable toute l'année."
+
+#~ msgctxt "tour detail"
+#~ msgid "registration"
+#~ msgstr "inscription"
+
+#~ msgctxt "tour detail"
+#~ msgid "Register"
+#~ msgstr "Inscription"
+
+#~ msgctxt "tour detail"
+#~ msgid "Brochure price"
+#~ msgstr "Tarif borchure"
+
+#~ msgctxt "tour detail"
+#~ msgid "Registration fee"
+#~ msgstr "Frais d'inscription"
+
+#~ msgctxt "tour detail"
+#~ msgid "Options"
+#~ msgstr "Options"
+
+#~ msgctxt "tour detail"
+#~ msgid "Additional fees"
+#~ msgstr "Frais supplémentaires"
+
+#~ msgctxt "tour detail"
+#~ msgid "Total amount"
+#~ msgstr "Montant total"
+
+#~ msgctxt "tour detail"
+#~ msgid "Tour dates"
+#~ msgstr "Dates de séjour"
+
+#~ msgctxt "tour detail"
+#~ msgid "&ndash; Select a date &ndash;"
+#~ msgstr "&ndash; Choisir une date &ndash;"
+
+#~ msgctxt "tour detail"
+#~ msgid "The next available session"
+#~ msgstr "La prochaine session disponible"
+
+#~ msgctxt "tour detail"
+#~ msgid "%s &ndash; %s"
+#~ msgstr "%s &ndash; %s"
+
+#~ msgctxt "call directory"
+#~ msgid "Phone"
+#~ msgstr "Téléphone"
+
+#~ msgctxt "call directory"
+#~ msgid "Fax"
+#~ msgstr "Fax"
+
+#~ msgctxt "tour detail"
+#~ msgid "departure %s &ndash; return %s"
+#~ msgstr "départ %s &ndash; retour %s"
+
+#~ msgid "Previous Post"
+#~ msgstr "Article précédent"
+
+#~ msgid "Next Post"
+#~ msgstr "Article suivant"
+
+#~ msgid "Primary Menu"
+#~ msgstr "Menu primaire"
+
+#~ msgid "Secondary Menu"
+#~ msgstr "Menu secondaire"
+
+#~ msgid "Tertiary Menu"
+#~ msgstr "Menu tertiaire"
+
+#~ msgid "registration"
+#~ msgstr "inscription"
+
+#~ msgctxt "breadcrumbs"
+#~ msgid "Home"
+#~ msgstr "Accueil"
+
+#~ msgctxt "tours directory"
+#~ msgid "Destinations"
+#~ msgstr "Destinations"
+
+#~ msgctxt "tours directory"
+#~ msgid "Programs"
+#~ msgstr "Programmes"
+
+#~ msgctxt "tours directory"
+#~ msgid "Accommodations"
+#~ msgstr "Hébergements"
+
+#~ msgctxt "tours directory"
+#~ msgid "Activities"
+#~ msgstr "Activités"
+
+#~ msgid "Page %d of %d"
+#~ msgstr "Page %d sur %d"
+
+#~ msgid "&laquo; First"
+#~ msgstr "&laquo; Début"
+
+#~ msgid "&lsaquo; Previous"
+#~ msgstr "&lsaquo; Fin"
+
+#~ msgid "Next &rsaquo;"
+#~ msgstr "Suivant &rsaquo;"
+
+#~ msgid "Last &raquo;"
+#~ msgstr "Dernier &raquo;"
+
+#~ msgctxt "theme options"
+#~ msgid "Copyright data"
+#~ msgstr "Informations du copyright"
+
+#~ msgctxt "theme options"
+#~ msgid "Assignment"
+#~ msgstr "Attribution"
+
+#~ msgctxt "theme options"
+#~ msgid "Year"
+#~ msgstr "Année"
+
+#~ msgctxt "theme options"
+#~ msgid "Misc captions"
+#~ msgstr "Intitulés divers"
+
+#~ msgctxt "theme options"
+#~ msgid "Brand signature"
+#~ msgstr "Signature de la marque"
+
+#~ msgid "Theme Options"
+#~ msgstr "Options du Thème"
+
+#~ msgid "Featured custom image"
+#~ msgstr "Image personnalisée de présentation"
+
+#~ msgid "Custom taxonomy thumbnail image."
+#~ msgstr "Image vignette de la taxinomie personnalisée."
+
+#~ msgid "Google Maps"
+#~ msgstr "Google Maps"
+
+#~ msgid "Close"
+#~ msgstr "Fermer"
+
+#~ msgid "Summary"
+#~ msgstr "Sommaire"
+
+#~ msgid "Destinations"
+#~ msgstr "Destinations"
+
+#~ msgid "Related archives"
+#~ msgstr "Archives associées"
+
+#~ msgid "Related tags"
+#~ msgstr "Tags associés"
+
+#~ msgid "Related categories"
+#~ msgstr "Catégories associées"
+
+#~ msgid "Tours in %s"
+#~ msgstr "Séjours %s"
+
+#~ msgid "Share this page"
+#~ msgstr "Partager cette page"
+
+#~ msgid "Share on Twitter"
+#~ msgstr "Partager sur Twitter"
+
+#~ msgid "Share on Facebook"
+#~ msgstr "Partager sur Facebook"
+
+#~ msgid "Share on Google+"
+#~ msgstr "Partager sur Google+"
+
+#~ msgid "Send by mail"
+#~ msgstr "Envoyer par mail"
+
+#~ msgid "Get the permalink"
+#~ msgstr "Lien permanent"
+
+#~ msgid "Top of page"
+#~ msgstr "Haut de page"
+
+#~ msgid "Copyright &copy;"
+#~ msgstr "Tous droits réservés &copy;"
+
+#~ msgid "Comment"
+#~ msgstr "Commenter"
+
+#~ msgid "Share"
+#~ msgstr "Partager"
+
+#~ msgid "Contact"
+#~ msgstr "Contact"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgctxt "taxonomy detail"
+#~ msgid "Learn more"
+#~ msgstr "En savoir plus"
+
+#~ msgid "All tours"
+#~ msgstr "Tous les séjours"
+
+#~ msgctxt "breadcrumbs"
+#~ msgid "Season specials"
+#~ msgstr "Offres saisonnières"
+
+#~ msgctxt "breadcrumbs"
+#~ msgid "Language tours"
+#~ msgstr "Séjours linguistiques"
+
+#~ msgctxt "breadcrumbs"
+#~ msgid "Season offers"
+#~ msgstr "Offres saisonnières"
+
+#~ msgctxt "breadcrumbs"
+#~ msgid "Tour types"
+#~ msgstr "Formules de séjours"
+
+#~ msgctxt "taxonomy detail"
+#~ msgid "(%d tour)"
+#~ msgid_plural "(%d tours)"
+#~ msgstr[0] "(%d séjour)"
+#~ msgstr[1] "(%d séjours)"
+
+#~ msgctxt "crm"
+#~ msgid "Read"
+#~ msgstr "Lu"
+
+#~ msgctxt "crm"
+#~ msgid "Unread"
+#~ msgstr "Non lu"
+
+#, fuzzy
+#~ msgctxt "crm"
+#~ msgid "Last event for this requester"
+#~ msgstr "Entrez ici le nom du demandeur"
+
+#~ msgctxt "crm"
+#~ msgid "Request details"
+#~ msgstr "Détails de la demande"
+
+#~ msgctxt "crm personal data"
+#~ msgid "Additional address"
+#~ msgstr "Adresse complémentaire"
+
+#~ msgid "Read"
+#~ msgstr "Lu"
+
+#~ msgid "Requesters"
+#~ msgstr "Demandeurs"
+
+#~ msgid "All requesters"
+#~ msgstr "Tous les demandeurs"
+
+#~ msgid "Requester"
+#~ msgstr "Demandeur"
+
+#~ msgid "Add new"
+#~ msgstr "Ajouter"
+
+#~ msgctxt "crm"
+#~ msgid "Requesters"
+#~ msgstr "Demandeurs"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgid "Additional address"
+#~ msgstr "Adresse complémentaire"
+
+#~ msgid "The additional address line (optional)."
+#~ msgstr "Ligne d'adresse complémentaire (optionelle)."
+
+#~ msgid "Postal Code"
+#~ msgstr "Code postal"
+
+#~ msgid "Locality"
+#~ msgstr "Localité"
+
+#~ msgid "Country"
+#~ msgstr "Pays"
+
+#~ msgid "Home phone"
+#~ msgstr "Tél. domicile"
+
+#~ msgid "Mobile phone"
+#~ msgstr "Tél. mobile"
+
+#~ msgctxt "tour detail"
+#~ msgid "from %s to %s"
+#~ msgstr "du %s au %s"
+
+#~ msgctxt "tours directory"
+#~ msgid "Tour types"
+#~ msgstr "Formules"
+
+#~ msgctxt "custom taxonomy name"
+#~ msgid "Type"
+#~ msgid_plural "Types"
+#~ msgstr[0] "Formule"
+#~ msgstr[1] "Formules"
+
+#, fuzzy
+#~ msgctxt "rewrite rules"
+#~ msgid "tour-types/%program%"
+#~ msgstr "formules-sejours/%tourtype%"
+
+#~ msgctxt "tour detail"
+#~ msgid "Selected package"
+#~ msgstr "Formule choisie"
+
+#~ msgid "View larger map"
+#~ msgstr "Voir une carte plus grande"
+
+#~ msgctxt "custom post name"
+#~ msgid "Special"
+#~ msgid_plural "Specials"
+#~ msgstr[0] "Offre"
+#~ msgstr[1] "Offres"
+
+#~ msgctxt "rewrite rules"
+#~ msgid "season-specials/%special%"
+#~ msgstr "offres-saisonnieres/%special%"
+
+#~ msgid "See tours"
+#~ msgstr "Voir les séjours"
+
+#~ msgctxt "tour detail"
+#~ msgid "Detailed amount"
+#~ msgstr "Montant détaillé"
+
+#~ msgctxt "tour detail"
+#~ msgid "from"
+#~ msgstr "à partir de"
+
+#~ msgctxt "tour detail"
+#~ msgid "From"
+#~ msgstr "À partir de"
+
+#~ msgid "(Click on the picture to view original size)"
+#~ msgstr "(Cliquer sur la photo pour voir la taille originale)"
+
+#~ msgctxt "page meta title"
+#~ msgid "Les Capricieuses"
+#~ msgstr "Les Capricieuses"
+
+#~ msgctxt "custom post name"
+#~ msgid "Performance"
+#~ msgid_plural "Performances"
+#~ msgstr[0] "Prestation"
+#~ msgstr[1] "Prestations"
+
+#~ msgctxt "custom taxonomy name"
+#~ msgid "Area"
+#~ msgid_plural "Areas"
+#~ msgstr[0] "Domaine"
+#~ msgstr[1] "Domaines"
+
+#~ msgctxt "custom taxonomy name"
+#~ msgid "Space"
+#~ msgid_plural "Spaces"
+#~ msgstr[0] "Espace"
+#~ msgstr[1] "Espaces"
+
+#~ msgid "areas/%area%"
+#~ msgstr "domaines/%area%"
+
+#~ msgid "spaces/%space%"
+#~ msgstr "espaces/%space%"
+
+#~ msgid "booking-inquiry"
+#~ msgstr "demande-reservation"
+
+#~ msgid "Performances"
+#~ msgstr "Prestations"
+
+#~ msgid "Call us"
+#~ msgstr "Nous appeler"
+
+#~ msgid "Overview"
+#~ msgstr "Aperçu"
+
+#~ msgid "Theme of %s"
+#~ msgstr "Sur le thème %s"
+
+#~ msgid "Options saved"
+#~ msgstr "Options enregistrées"
+
+#~ msgid "Year"
+#~ msgstr "Année"
+
+#~ msgctxt "theme options"
+#~ msgid "Company name"
+#~ msgstr "Nom de la société"
+
+#, fuzzy
+#~ msgctxt "custom post name"
+#~ msgid "performance"
+#~ msgid_plural "performances"
+#~ msgstr[0] "Prestation"
+#~ msgstr[1] "Prestations"
+
+#~ msgctxt "custom taxonomy name"
+#~ msgid "area"
+#~ msgid_plural "areas"
+#~ msgstr[0] "Domaine"
+#~ msgstr[1] "Domaines"
