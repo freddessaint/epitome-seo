@@ -1,7 +1,7 @@
 Epitome SEO
 ===============
 
-Easily handle SEO metadata for every pages of a theme. Designed to fit into WordPress as a core functionality.
+A WordPress plugin to easily handle SEO metadata for every pages of a theme.
 
 [View project page](http://freddessaint.github.com/epitome-seo)
 
